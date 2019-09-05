@@ -1,3 +1,154 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* Globals */
+html {
+    font-size: 67.5%;
+}
 
+hr {
+    width: 95%;
+    margin: 0 auto;
+}
 
+h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* Navigation styles */
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    width: 70%;
+    font-size: 1.7rem;
+}
+
+.nav-img {
+    display: flex;
+    justify-content: center;
+
+    width: 30%;
+}
+
+.navbar a,
+.navbar a:visited,
+.navbar a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+/* Header styles */
+
+.header-intro {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5rem;
+    margin-bottom: 4.5rem;
+}
+
+.header-intro>div>button {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.45rem 2.8rem;
+    border: 1px solid black;
+}
+
+.header-intro .title {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    margin-right: 4rem;
+    font-size: 6.5rem;
+}
+
+/* Main Content / Section styles */
+
+.main__image {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.top-content,
+.bottom-content {
+    line-height: 1.2;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+
+    margin: 2rem 0;
+}
+
+.top-content>div {
+    width: 47%;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.top-content>div>p {
+    max-width: 75%;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+
+    margin: 2rem 0;
+}
+
+.bottom-content>div {
+    width: 32%;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.bottom-content>div>p {
+    max-width: 75%;
+}
+
+.main__image {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.main__image>img {
+    width: 92%;
+}
+
+/* Contact styles */
+
+.contact {
+    display: flex;
+    flex-flow: column nowrap;
+
+    max-width: 100%;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+/* Footer styles */
+
+body>footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
